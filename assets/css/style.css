@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    padding: 30px;
+    background:#ededed;
+}
+.wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+}
+#timer{
+    text-align: center;
+    cursor: pointer;
+    background: rgb(145, 139, 139);
+    padding: 4px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 5px auto;
+    width: 245px;
+}
+.style1{
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+#balloonList div{
+    background: #ff3300;
+    height: 94px;
+    width: 78px;
+    text-align: center;
+    color: #ff3300;
+    font-size: 14px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin: 2.5px 5 px 2.5px 0px;
+    cursor: pointer;
+}
+#balloonList{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 900px;
+}
+.reset{
+    text-align: center;
+    cursor: pointer;
+    background: #c95252;
+    padding: 4px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 5px auto;
+    width: 245px;
+}
+.reset:hover{
+    background: rgb(116, 22, 22);
+}
+.pause{
+    text-align: center;
+    cursor: pointer;
+    background: #c95252;
+    padding: 4px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 5px auto;
+    width: 245px;
+}
+.pause:hover{
+    background: rgb(116, 22, 22);
+}
+.instructionPara{
+    text-align: center;
+    cursor: pointer;
+    background: #c95252;
+    padding: 4px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 5px auto;
+    width: 245px;
+}
+.instructionPara:hover{
+    background: rgb(116, 22, 22);
+}
+#balloonList div:nth-child(1n){
+    background: #e0d340;
+    color: #c7ba27;
+    font-weight: 900;
+    -webkit-transition: all 0.9s linear;
+    -o-transition: all 0.9s linear;
+    transition: all 0.9s linear;
+    margin: 2px;
+    box-shadow: 1px 1px 5px #434840 inset;
+    font-size: 15px;
+}
+#balloonList div:nth-child(2n){
+    background: #76b3ec;
+    color: #6197ca;
+    font-weight: 900;
+    -webkit-transition: all 0.9s linear;
+    -o-transition: all 0.9s linear;
+    transition: all 0.9s linear;
+    margin: 2px;
+    box-shadow: 1px 1px 5px #434840 inset;
+    font-size: 15px;
+}
+#balloonList div:nth-child(3n){
+    background:#f55fe1;
+    color:#e64dd2;
+    font-weight: 900;
+    -webkit-transition: all 0.9s linear;
+    -o-transition: all 0.9s linear;
+    transition: all 0.9s linear;
+    margin: 2px;
+    box-shadow: 1px 1px 5px #434840 inset;
+    font-size: 15px;
+}
+#balloonList div:nth-child(4n){
+    background:#ff8465;
+    color: #db745a;
+    font-weight: 900;
+    -webkit-transition: all 0.9s linear;
+    -o-transition: all 0.9s linear;
+    transition: all 0.9s linear;
+    margin: 2px;
+    box-shadow: 1px 1px 5px #434840 inset;
+    font-size: 15px;
+}
+#balloonList div:nth-child(5n){
+    background:#88e055;
+    color:#65aa3d;
+    font-weight: 900;
+    -webkit-transition: all 0.9s linear;
+    -o-transition: all 0.9s linear;
+    transition: all 0.9s linear;
+    margin: 2px;
+    box-shadow: 1px 1px 5px #434840 inset;
+    font-size: 15px;
+}
+#balloonList div:nth-child(6n){
+    background:#9e81ee;
+    color:#8063d1;
+    font-weight: 900;
+    -webkit-transition: all 0.9s linear;
+    -o-transition: all 0.9s linear;
+    transition: all 0.9s linear;
+    margin: 2px;
+    box-shadow: 1px 1px 5px #434840 inset;
+    font-size: 15px;
+}
+#text-for-winner {
+    display:none;
+    color:#ff3300;
+    font-size:100px;
+}
